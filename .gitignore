@@ -1,8 +1,5 @@
-# Claude Code
-CLAUDE.md
-
-# Internal docs
-premium.md
+# Markdown files
+*.md
 
 # macOS
 .DS_Store
