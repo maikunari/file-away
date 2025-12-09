@@ -1,0 +1,25 @@
+# Claude Code
+CLAUDE.md
+
+# Internal docs
+premium.md
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# WordPress
+wp-config.php
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
+*.swp
