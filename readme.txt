@@ -5,7 +5,7 @@ Tags: files, attachments, upload, statistics, tables, directory, monetize, light
 Requires at least: 3.7
 Tested up to: 6.7
 Requires PHP: 5.4
-Stable tag: 3.9.9.0.2
+Stable tag: 3.9.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,8 @@ Upload, manage, and display files from your server directories or page attachmen
 Upload, manage, and display files from your server directories or page attachments in stylized lists or sortable data tables. And much, much more. 
 
 == Changelog ==
+= 3.9.10 =
+* Fork release: security fixes for CVE-2025-2512 and CVE-2023-0431 (see the initial fork commit); own version and Update URI so wordpress.org updates and vulnerability scanners no longer treat it as the abandoned 3.9.9.0.2.
 = 3.9.9.0.2 =
 * Security: Fixed CVE-2025-2512 - Unauthenticated arbitrary file upload vulnerability
 * Security: Fixed CVE-2023-0431 - Stored XSS via shortcode attributes

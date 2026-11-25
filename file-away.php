@@ -1,19 +1,20 @@
 <?php
 /*
 ** Plugin Name: File Away
-** Plugin URI: http://wordpress.org/plugins/file-away/
+** Plugin URI: https://github.com/maikunari/file-away
 ** Text Domain: file-away
 ** Domain Path: /lib/lng
-** Description: Upload, manage, and display files from your server directories or page attachments in stylized lists or sortable data tables.
-** Version: 3.9.9.0.2
+** Description: Upload, manage, and display files from your server directories or page attachments in stylized lists or sortable data tables. (fork maintained by Sonic Pixel)
+** Version: 3.9.10
 ** Author: Thom Stark
 ** Author URI: http://imdb.me/thomstark
+** Update URI: https://github.com/maikunari/file-away
 ** License: To Fly. File Away comes as is with no guarantees about anything.
 */
 define('fileaway', __FILE__);
 define('fileaway_dir', str_replace('\\','/',dirname(fileaway)));
 define('fileaway_url', str_replace('\\','/',plugins_url('', fileaway)));
-define('fileaway_version', '3.9.9.0.2');
+define('fileaway_version', '3.9.10');
 if(!class_exists('fileaway_autofiler'))
 {
 	class fileaway_autofiler
